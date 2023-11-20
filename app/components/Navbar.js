@@ -13,13 +13,14 @@ const Navbar = () => {
       link: "home",
     },
     {
-      name: "About",
-      link: "home",
+      name: "Services",
+      link: "services",
     },
     {
-      name: "Services",
-      link: "home",
+      name: "How its Work",
+      link: "howits",
     },
+
     {
       name: "Contact us",
       link: "contact",
