@@ -72,15 +72,15 @@ export default function Footer() {
             <h1 className="text-white text-[18px]">Services</h1>
             <div className="flex flex-col gap-6">
               <p className="text-[black] text-[14px] cursor-pointer font-semibold  hover:text-white ">
-                Air Freight
+                Company
               </p>
 
               <p className="text-[black] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Sea Freight
+                Survey
               </p>
 
               <p className="text-[black] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Road Freight
+                Task
               </p>
             </div>
           </div>
