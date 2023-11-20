@@ -40,7 +40,7 @@ const Download = () => {
                   onClick={handleClick}
                   className="bg-[#5585EE] px-5 py-2 text-white rounded-lg flex gap-2 items-center font-semibold "
                 >
-                  Download Now{" "}
+                  Download App{" "}
                   <span>
                     <FaDownload
                       className={`

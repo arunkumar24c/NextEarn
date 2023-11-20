@@ -114,7 +114,7 @@ const Navbar = () => {
             onClick={handleClick}
             className="bg-white px-5 py-2 rounded-lg flex gap-2 items-center font-semibold "
           >
-            Download Now{" "}
+            Download App{" "}
             <span>
               <FaDownload
                 className={`
