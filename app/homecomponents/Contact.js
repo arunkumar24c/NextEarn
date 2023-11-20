@@ -14,7 +14,7 @@ const Contact = () => {
     }, 3000);
   };
   return (
-    <div className="">
+    <div className="" id="contact">
       <div className="brand-container px-5 py-5">
         <h1 className="text-center text-[black] text-[35px]">Contact us</h1>
         <p className="text-center py-2 text-[18px] ">Get in touch</p>

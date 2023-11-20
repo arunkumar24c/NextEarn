@@ -49,7 +49,7 @@ const HowIts = () => {
   ];
 
   return (
-    <div className="bg-[#5585EE] ">
+    <div className="bg-[#5585EE] " id="howits">
       <div className="brand-container py-16 px-5">
         <div className="flex flex-col justify-center items-center gap-6">
           <h1 className="text-[white]">How It Works</h1>

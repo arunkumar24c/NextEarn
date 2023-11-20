@@ -7,40 +7,40 @@ import "glider-js/glider.min.css";
 
 const data = [
   {
-    imgSrc: "/assest/img1.png",
+    imgSrc: "/assest/banner1.jpg",
     title: "Double Your Money with",
     description: "Daily Tasks",
     para: "Invest and watch your money grow!  we help you double your investment by completing simple daily tasks.",
   },
   {
-    imgSrc: "/assest/img2.png",
+    imgSrc: "/assest/banner2.jpg",
     title: "Start Small or ",
 
     description: "Go Big",
     para: " Select an investment plan that fits your budget and goals.  start with just 100 or aim higher with 500 or 1000.",
   },
   {
-    imgSrc: "/assest/img3.png",
+    imgSrc: "/assest/banner3.jpg",
     title: "Surveys, Games, Videos, ",
 
     description: "and More!",
     para: "Earning is easy! Complete daily tasks like surveys, play engaging games, and watch interesting videos.",
   },
   {
-    imgSrc: "/assest/img1.png",
+    imgSrc: "/assest/banner1.jpg",
     title: "Double Your Money with",
     description: "Daily Tasks",
     para: "Invest and watch your money grow!  we help you double your investment by completing simple daily tasks.",
   },
   {
-    imgSrc: "/assest/img2.png",
+    imgSrc: "/assest/banner2.jpg",
     title: "Start Small or ",
 
     description: "Go Big",
     para: " Select an investment plan that fits your budget and goals.  start with just 100 or aim higher with 500 or 1000.",
   },
   {
-    imgSrc: "/assest/img3.png",
+    imgSrc: "/assest/banner3.jpg",
     title: "Surveys, Games, Videos, ",
 
     description: "and More!",
@@ -60,7 +60,7 @@ const Hero = () => {
   }, [gliderRef]);
 
   return (
-    <div className="py-10  ">
+    <div className="py-10  " id="home">
       <Glider
         className="glider-container"
         draggable
@@ -136,25 +136,23 @@ const Hero = () => {
 
 const PopularDestinationCard = (props) => {
   return (
-    <div className="">
-      <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col   justify-center items-center px-10 py-16 gap-4 bg-white">
-        <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex justify-center items-center ">
-          <Image
-            src={props.imgSrc}
-            width={500}
-            height={500}
-            className=" bg-transparent"
-            alt="img"
-          />
-        </div>
-        <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex-col flex justify-center items-center ">
+    <div
+      className="h-[80vh]"
+      style={{
+        backgroundImage: `url(${props.imgSrc})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className=" flex flex-col xl:flex-row lg:flex-row md:flex-col  px-10 py-16 gap-4 ">
+        <div className=" w-full xl:w-1/2 lg:w-1/2 md:w-full flex-col flex justify-center items-center py-16">
           <h1 className="text-[45px] font-bold flex gap-2 py-2 text-[#5585EE] leading-normal ">
             {props.title}
           </h1>
-          <h2 className="text-justify text-[30px] font-bold  text-[black] leading-normal">
+          <h2 className="text-justify text-[30px] font-bold  text-[white] leading-normal">
             {props.description}
           </h2>
-          <p className="text-center text-[20px] font-medium py-3 text-[black] leading-normal">
+          <p className="text-center text-[20px] font-medium py-3 text-[white] leading-normal">
             {props.para}
           </p>
         </div>
@@ -164,3 +162,4 @@ const PopularDestinationCard = (props) => {
 };
 
 export default Hero;
+ 

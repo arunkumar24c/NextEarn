@@ -14,7 +14,7 @@ const testimonialData = [
     stars: 3,
     location: "New York",
     quote:
-      "Open the Rentyaar app to get started and follow the steps. Rentyaar Does not charge a fee to create  or maintain your Rentyaar account.",
+      "Download & Install: Get started by downloading our app from the App Store or Google Play Store—its free!",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Open the Rentyaar app to get started and follow the steps. Rentyaar Does not charge a fee to create  or maintain your Rentyaar account.",
+      "Download & Install: Get started by downloading our app from the App Store or Google Play Store—its free!",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Open the Rentyaar app to get started and follow the steps. Rentyaar Does not charge a fee to create  or maintain your Rentyaar account.",
+      "Explore Offers: Browse through a wide range of offers, including apps, games, and more.",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const testimonialData = [
     stars: 3,
     location: "Los Angeles",
     quote:
-      "Open the Rentyaar app to get started and follow the steps. Rentyaar Does not charge a fee to create  or maintain your Rentyaar account.",
+      " Browse through a wide range of offers, including apps, games, and more.Earn Rewards: For every app you download and engage with, earn points that can be redeemed for exciting rewards.",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Open the Rentyaar app to get started and follow the steps. Rentyaar Does not charge a fee to create  or maintain your Rentyaar account.",
+      "Earn Rewards: For every app you download and engage with, earn points that can be redeemed for exciting rewards.",
   },
 ];
 

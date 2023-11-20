@@ -29,4 +29,32 @@
   }
 
 
+/* In your styles or Tailwind CSS file */
+@keyframes downloadScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes downloadRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.animate-download {
+  animation: downloadScale 0.5s ease-in-out, downloadRotate 1s linear;
+}
+
+
 }
