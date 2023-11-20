@@ -86,7 +86,7 @@ const Contact = () => {
               <div className="flex justify-between">
                 <button
                   type="submit"
-                  className={`py-3 px-5 text-sm font-medium text-center  rounded-lg bg-[blue] text-black relative overflow-hidden ${
+                  className={`py-3 px-5 text-sm font-medium text-center  rounded-lg bg-[#5585EE] text-black relative overflow-hidden ${
                     isAnimating ? "animate-pulse" : ""
                   } hover:scale-105 hover:bg-white-500 transition duration-300`}
                   onClick={handleClick}
@@ -100,17 +100,17 @@ const Contact = () => {
                   )}
                 </button>
                 <div className="flex gap-3">
-                  <p className=" text-[black] cursor-pointer hover:text-[blue] rounded-md border px-2 py-2 border-white shadow-md">
+                  <p className=" text-[black] cursor-pointer hover:text-[#5585EE] rounded-md border px-2 py-2 border-white shadow-md">
                     <a href=" " target="_blank">
                       <BsInstagram size={25} />
                     </a>
                   </p>
-                  <p className=" text-[black] cursor-pointer hover:text-[blue] rounded-md border px-2 py-2 border-white shadow-md">
+                  <p className=" text-[black] cursor-pointer hover:text-[#5585EE] rounded-md border px-2 py-2 border-white shadow-md">
                     <a href=" " target="_blank">
                       <RiTwitterXLine size={25} />
                     </a>
                   </p>
-                  <p className=" text-[black] cursor-pointer hover:text-[blue] rounded-md border px-2 py-2 border-white shadow-md">
+                  <p className=" text-[black] cursor-pointer hover:text-[#5585EE] rounded-md border px-2 py-2 border-white shadow-md">
                     <a href=" " target="_blank">
                       <BsWhatsapp size={25} />
                     </a>

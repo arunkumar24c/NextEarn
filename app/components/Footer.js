@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-y-5 justify-between items-start pb-5">
           {/* text  */}
           {/* 1 */}
-          <div className="text-white py-2 flex flex-col gap-2 ">
+          <div className="text-white text-[19px] py-2 flex flex-col gap-2 ">
             <Link href="/">
               <h1>Earn App</h1>
             </Link>
