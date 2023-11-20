@@ -29,7 +29,7 @@ function Navbar() {
             isOpen ? "block " : "hidden"
           }`}
         >
-          <div className="text-[24px] font-bold lg:flex-grow gap-5">
+          <div className=" font-bold lg:flex-grow gap-5">
             <Link href="/">
               <p
                 href="#"

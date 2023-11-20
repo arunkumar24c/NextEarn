@@ -12,7 +12,7 @@ const Task = () => {
         <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col gap-4 justify-center py-4">
           {/* left */}
           <div className="w-full xl:w-1/2 md:w-full lg:w-1/2 ">
-            <h1 className="text-[18px] px-5 ">Hii Vicky</h1>
+            <h1 className="text-[20px] px-5 py-5 ">Hii Vicky</h1>
             <div className="border shadow-lg flex flex-row justify-between  px-16 py-16 rounded-xl items-center  bg-[#5585EE] text-white">
               <div className="">
                 <p>Your Balance</p>
