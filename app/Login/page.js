@@ -14,19 +14,19 @@ const Page = () => {
   return (
     <div>
       <div className="brand-container px-5 py-5 h-auto">
-        <div className="bg-white shadow-xl">
+        <div className=" shadow-xl">
           <div className="flex gap-4 py-3 justify-center items-center">
             <button
-              className={`px-16 py-3 bg-secondary text-black font-medium rounded-sm ${
-                isSignUp ? "bg-gray-300" : ""
+              className={`px-16 py-3 bg-[#5585ee] text-black font-medium rounded-sm ${
+                isSignUp ? "bg-[gray]" : ""
               }`}
               onClick={() => setIsSignUp(false)}
             >
               Login
             </button>
             <button
-              className={`px-16 py-3 bg-secondary text-black font-medium rounded-sm ${
-                isSignUp ? "" : "bg-gray-300"
+              className={`px-16 py-3 bg-[#5585ee] text-black font-medium rounded-sm ${
+                isSignUp ? "" : "bg-[gray]"
               }`}
               onClick={() => setIsSignUp(true)}
             >

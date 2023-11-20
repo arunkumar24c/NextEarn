@@ -12,7 +12,7 @@ function Navbar() {
         <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72 ">
           <div className="flex gap-2 cursor-pointer">
             <Link href="/">
-              <h1 className="text-[22px] font-bold text-white">Earn App</h1>
+              <h1 className="text-[28px] font-bold text-white">Earn App</h1>
             </Link>
           </div>
         </div>
@@ -30,26 +30,26 @@ function Navbar() {
           }`}
         >
           <div className="text-[24px] font-bold lg:flex-grow gap-5">
-            <Link href="/getinterview">
+            <Link href="/">
               <p
                 href="#"
-                className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white mr-8"
+                className="block mt-4 font-bold text-[18px] lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Plan
               </p>{" "}
             </Link>
-            <Link href="/media">
+            <Link href="/">
               <p
                 href="#"
-                className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white mr-8"
+                className="block mt-4 font-bold text-[18px] lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Task
               </p>
             </Link>
-            <Link href="/contact">
+            <Link href="/">
               <p
                 href="#"
-                className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white mr-8"
+                className="block mt-4 font-bold text-[18px] lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Contact Us
               </p>
