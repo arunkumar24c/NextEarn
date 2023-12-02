@@ -17,6 +17,10 @@ const Navbar = () => {
       link: "services",
     },
     {
+      name: "Product",
+      link: "Product",
+    },
+    {
       name: "How its Work",
       link: "howits",
     },
@@ -44,9 +48,9 @@ const Navbar = () => {
         const cuselement = document.getElementById(id);
         
 
-        var headerOffset = 100;
-        var elementPosition = cuselement.getBoundingClientRect().top;
-        var offsetPosition = elementPosition + window.scrollY - headerOffset;
+        let headerOffset = 100;
+        let elementPosition = cuselement.getBoundingClientRect().top;
+        let offsetPosition = elementPosition + window.scrollY - headerOffset;
 
         window.scrollTo({ top: offsetPosition, behavior: "smooth" });
       }, 1000);
@@ -109,7 +113,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div>
+        <div className="hidden xl:block lg:block">
           <button
             onClick={handleClick}
             className="bg-white px-5 py-2 rounded-lg flex gap-2 items-center font-semibold "

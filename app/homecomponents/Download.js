@@ -22,10 +22,10 @@ const Download = () => {
           {/* left */}
           <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full">
             <div className="flex flex-col gap-6">
-              <h1 className="text-[35px] leading-normal text-center">
+              <h1 className="text-[35px] leading-normal text-justify">
                 Download the Earning App and Complete the task
               </h1>
-              <p className="leading-normal  text-center font-medium">
+              <p className="leading-normal text-[black] text-justify font-semibold">
                 Download & Install: Get started by downloading our app from the
                 App Store or Google Play Store—its free! Explore Offers: Browse
                 through a wide range of offers, including apps, games, and more.

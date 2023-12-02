@@ -7,6 +7,8 @@ import Hero from "./homecomponents/Hero";
 import Plan from "./homecomponents/Plan";
 import Task from "./homecomponents/Task";
 import Download from "./homecomponents/Download";
+import Product from "./homecomponents/Product";
+import Register from "./homecomponents/Register";
 
 export const metadata = {
   title: "Earn App",
@@ -19,8 +21,10 @@ export default function Home() {
       <Hero />
       <Plan />
       <Task />
+      <Product/>
       <HowIts />
       <Download />
+      <Register/>
       <Contact />
       <Faq />
       <Testimonials />
