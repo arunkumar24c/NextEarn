@@ -22,26 +22,26 @@ const HowIts = () => {
   const items = [
     {
       icon: <PiNumberSquareOneFill size={35} />,
-      imageSrc: "/assest/im5.jpg",
+      imageSrc: "/assest/a2.png",
       title: "Install the app",
       description: "visit to playstore app and search Earning app",
     },
     {
       icon: <PiNumberSquareTwoFill size={35} />,
-      imageSrc: "/assest/im6.jpg",
+      imageSrc: "/assest/a3.png",
       title: "Download",
       description: "click the install button for Download",
     },
     {
       icon: <PiNumberSquareThreeFill size={35} />,
-      imageSrc: "/assest/im6.jpg",
+      imageSrc: "/assest/a4.jpeg",
       title: "Sign up with free registration",
       description:
         "Open the app and  fill the basic details and order your fav plan ",
     },
     {
       icon: <PiNumberSquareFourFill size={35} />,
-      imageSrc: "/assest/im4.png",
+      imageSrc: "/assest/a6.jpg",
       title: "Task",
       description:
         "watch the video and Earn the amount ",
@@ -66,8 +66,8 @@ const HowIts = () => {
                 <p className="flex justify-center items-center ">{item.icon}</p>
                 <Image
                   src={item.imageSrc}
-                  width={100}
-                  height={200}
+                  width={300}
+                  height={300}
                   alt="img"
                   className="w-full h-auto py-4 pt-5"
                 />

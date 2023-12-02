@@ -68,7 +68,7 @@ const Register = () => {
           Register Form
         </h1>
         <div className="border rounded-md p-6 px-10 bg-white shadow-lg max-w-md mx-auto mt-8">
-          <form className="mt-8 mb-2 " onSubmit={handleSubmit}>
+          <form className="mt-8 mb-2 w-full" onSubmit={handleSubmit}>
             <div className="flex flex-col gap-6">
               <label htmlFor="name" className="text-blue-gray -mb-3">
                 Your Name
@@ -129,6 +129,17 @@ const Register = () => {
               {errors.password && (
                 <p className="text-red-500 mb-2">{errors.password}</p>
               )}
+              <label htmlFor="name" className="text-blue-gray -mb-3">
+                Referral Id
+              </label>
+              <input
+                id="name"
+                type="text"
+                placeholder="15462"
+                className="border-b border-black/30 focus:border-t-gray-900 p-2.5"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
             </div>
             <div className="-ml-2.5 mt-4">
               <label className="flex items-center font-normal text-gray">
