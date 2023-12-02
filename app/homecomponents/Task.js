@@ -13,12 +13,12 @@ const Task = () => {
           {/* left */}
           <div className="w-full xl:w-1/2 md:w-full lg:w-1/2 ">
             <h1 className="text-[20px] px-5 py-5 ">Hii Vicky</h1>
-            <div className="border shadow-lg flex flex-row justify-between  px-16 py-16 rounded-xl items-center  bg-[#5585EE] text-white">
+            <div className="border shadow-lg flex flex-col xl:flex-row lg:flex-row md:flex-col justify-between  px-16 py-16 rounded-xl items-center  bg-[#5585EE] text-white">
               <div className="">
-                <p>Your Balance</p>
+                <p className="text-[24px] pb-2">Your Balance</p>
                 <h1>$ 5000</h1>
               </div>
-              <div className="flex gap-4 items-center">
+              <div className="flex flex-col py-5  gap-4">
                 <p className="text-[24px]">withdrawal</p>{" "}
                 <p className="flex items-center gap-2">
                   <FaIndianRupeeSign size={25} />
