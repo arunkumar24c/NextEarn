@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <div>
-      <div className="brand-container px-5 py-5 h-auto">
+      <div className="brand-container mt-[7rem] px-5 py-5 h-auto">
         <div className=" shadow-xl">
           <div className="flex gap-4 py-3 justify-center items-center">
             <button
